@@ -210,6 +210,7 @@ func (c completedConfig) New() (*KubeDBServer, error) {
 					api.ResourcePluralMySQL,
 					api.ResourcePluralPostgres,
 					api.ResourcePluralRedis,
+					api.ResourcePluralRedisSentinel,
 				},
 			})
 	}
